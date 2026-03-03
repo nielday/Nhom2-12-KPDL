@@ -1,0 +1,44 @@
+[
+  {
+    "label_pct":5.0,
+    "method":"Supervised-only",
+    "f1":0.6608065247,
+    "pr_auc":0.7001769999
+  },
+  {
+    "label_pct":5.0,
+    "method":"Self-Training",
+    "f1":0.5565418072,
+    "pr_auc":0.4781814618
+  },
+  {
+    "label_pct":10.0,
+    "method":"Supervised-only",
+    "f1":0.6683352032,
+    "pr_auc":0.7189908306
+  },
+  {
+    "label_pct":10.0,
+    "method":"Self-Training",
+    "f1":0.5757467994,
+    "pr_auc":0.5421994556
+  },
+  {
+    "label_pct":20.0,
+    "method":"Supervised-only",
+    "f1":0.673971679,
+    "pr_auc":0.7267327546
+  },
+  {
+    "label_pct":20.0,
+    "method":"Self-Training",
+    "f1":0.6328417896,
+    "pr_auc":0.6601431208
+  },
+  {
+    "label_pct":100.0,
+    "method":"Full Supervised",
+    "f1":0.6749917301,
+    "pr_auc":0.7402456483
+  }
+]

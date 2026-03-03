@@ -1,0 +1,21 @@
+feature,importance
+room_mismatch,0.16638152
+required_car_parking_spaces,0.11415563
+market_segment_Online TA,0.10704635
+is_local,0.08066935
+deposit_type_Non Refund,0.060481153
+total_of_special_requests,0.043571524
+market_segment_Direct,0.035781056
+customer_type_Transient,0.032658763
+agent,0.027953874
+has_deposit,0.026099844
+previous_cancellations,0.022700641
+market_segment_Offline TA/TO,0.022249501
+lead_time,0.016176458
+previous_bookings_not_canceled,0.01617075
+distribution_channel_Direct,0.015161275
+distribution_channel_TA/TO,0.014110562
+booking_changes,0.014075611
+arrival_date_year,0.0127497595
+customer_type_Transient-Party,0.011339262
+country,0.007904476

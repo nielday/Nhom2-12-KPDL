@@ -1,0 +1,5 @@
+method,mae,rmse,smape
+Moving Average (3),0.0563,0.0594,18.18
+Naive,0.0651,0.0704,21.32
+Holt-Winters,0.0694,0.0756,22.93
+"ARIMA(1,1,1)",0.0732,0.0795,24.43

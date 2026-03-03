@@ -1,0 +1,60 @@
+# ============================================================
+# Hotel Booking Cancellation Prediction - Configuration
+# ============================================================
+
+seed: 42
+test_size: 0.2
+
+# --- Data paths ---
+data:
+  raw_path: "data/raw/hotel_bookings.csv"
+  processed_path: "data/processed/hotel_bookings_clean.csv"
+
+# --- Leakage columns to remove ---
+leakage_columns:
+  - "reservation_status"
+  - "reservation_status_date"
+
+# --- Association Rules ---
+association:
+  min_support: 0.05
+  min_confidence: 0.5
+  min_lift: 1.2
+  top_k_countries: 10
+
+# --- Clustering ---
+clustering:
+  k_range: [2, 3, 4, 5, 6, 7, 8]
+  scaler: "standard"
+  features:
+    - "lead_time"
+    - "total_stays"
+    - "total_guests"
+    - "adr"
+    - "booking_changes"
+    - "previous_cancellations"
+    - "days_in_waiting_list"
+    - "total_of_special_requests"
+
+# --- Classification ---
+classification:
+  models:
+    - "LogisticRegression"
+    - "DecisionTree"
+    - "RandomForest"
+    - "XGBoost"
+  cv_folds: 5
+  primary_metric: "pr_auc"
+
+# --- Semi-supervised ---
+semi_supervised:
+  label_ratios: [0.05, 0.10, 0.20]
+  self_training_threshold: 0.85
+  label_spreading_alpha: 0.2
+  label_spreading_n_neighbors: 7
+
+# --- Time Series ---
+time_series:
+  freq: "M"
+  train_ratio: 0.8
+  seasonal_periods: 12

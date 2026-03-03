@@ -1,0 +1,26 @@
+[
+  {
+    "method":"Moving Average (3)",
+    "mae":0.0563,
+    "rmse":0.0594,
+    "smape":18.18
+  },
+  {
+    "method":"Naive",
+    "mae":0.0651,
+    "rmse":0.0704,
+    "smape":21.32
+  },
+  {
+    "method":"Holt-Winters",
+    "mae":0.0694,
+    "rmse":0.0756,
+    "smape":22.93
+  },
+  {
+    "method":"ARIMA(1,1,1)",
+    "mae":0.0732,
+    "rmse":0.0795,
+    "smape":24.43
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "antecedents":[
+      "country_group=PRT",
+      "weekend_stay=has_weekend",
+      "distribution_channel=TA\/TO"
+    ],
+    "consequents":[
+      "is_canceled=canceled"
+    ],
+    "antecedent support":0.1112733712,
+    "consequent support":0.2730952326,
+    "support":0.0577697031,
+    "confidence":0.519169164,
+    "lift":1.9010553902,
+    "representativity":1.0,
+    "leverage":0.0273814759,
+    "conviction":1.5117681999,
+    "zhangs_metric":0.5333208038,
+    "jaccard":0.1768827237,
+    "certainty":0.3385229296,
+    "kulczynski":0.3653530031
+  }
+]

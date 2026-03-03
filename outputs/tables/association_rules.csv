@@ -1,0 +1,2 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+"frozenset({'country_group=PRT', 'weekend_stay=has_weekend', 'distribution_channel=TA/TO'})",frozenset({'is_canceled=canceled'}),0.11127337120253893,0.27309523261964447,0.05776970310236184,0.5191691639971064,1.9010553901546257,1.0,0.027381475909432424,1.5117681998580912,0.5333208038437585,0.1768827236559518,0.33852292957751773,0.3653530030511848
